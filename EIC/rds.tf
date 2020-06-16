@@ -7,6 +7,6 @@ module "db" {
   name          = "dbname"
   instanceclass = "dbtype"
   username      = "dbusername"
-  password      = "dbuserpwd" 
+  password      = "Password" 
   parametergroup = "Parametergroups"
   
