@@ -1,6 +1,6 @@
 module "db" {
   source        = "../modules"
-  subnetgroup   = "subnetgroups"
+  dbsubnetgroup   = "subnetgroup"
   engine        = "databasetype"
   engineversion = "dbVersion"
   storage       = "storagesize"
@@ -8,4 +8,4 @@ module "db" {
   instanceclass = "dbtype"
   username      = "dbusername"
   password      = "dbpassword" 
-  parametergroup = "parametergroup"
+  dbparametergroup = "parametergroup"
